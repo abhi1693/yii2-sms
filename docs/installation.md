@@ -34,7 +34,7 @@ $config = [
         ...
         'sms' => [
             'class'             => 'abhimanyu\sms\components\Sms' // Class (Required)
-            'transportType'     => 'smtp'                         // (Optional)
+            'transportType'     => 'smtp'                         // smtp/php (Optional)
             'transportOptions'  => [                              // (Required)
                 'host'       => 'smtp.gmail.com'                  // Other domains can also be used
                 'username'   => 'your@gmail.com',
