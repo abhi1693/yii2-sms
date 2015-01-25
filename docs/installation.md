@@ -27,4 +27,22 @@ $ php composer.phar update
 Step 2: Configure your application
 ----------------------------------
 
-Coming Soon
+```
+$config = [
+    ...
+    'components' => [
+        ...
+        'sms' => [
+            'class'             => 'abhimanyu\sms\components\Sms' // Class (Required)
+            'transportType'     => 'smtp'                         // (Optional)
+            'transportOptions'  => [                              // (Required)
+                'host'       => 'smtp.gmail.com'
+                'username'   => 'your@gmail.com',
+                'password'   => '******',
+                'port'       => '465',
+                'encryption' => 'ssl'
+            ]
+        ]
+    ]
+]
+```
