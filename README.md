@@ -20,7 +20,7 @@ easy two-step process.
 
 Add Yii2-Sms to the require section of your **composer.json** file:
 
-```
+```php
 {
     "require": {
         "abhi1693/yii2-sms": "*"
@@ -88,4 +88,4 @@ Contributing instructions are located in [CONTRIBUTING.md](CONTRIBUTING.md) file
 
 ## License
 
-Yii2-sms is released under the MIT License. See the bundled [LICENSE](LICENSE) for details.
+Yii2-sms is released under the MIT License. See the bundled [LICENSE](LICENSE.md) for details.
