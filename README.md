@@ -24,7 +24,7 @@ Add Yii2-Sms to the require section of your **composer.json** file:
 ```php
 {
     "require": {
-        "abhi1693/yii2-sms": "*"
+        "abhi1693/yii2-sms": "1.0.0"
     }
 }
 ```
