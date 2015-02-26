@@ -27,10 +27,10 @@
 		 * @var array
 		 */
 		public $transportOptions = [
-			'host'       => 'mx1.hostinger.in',
-			'username'   => 'abhimanyu@teamvulcans.com',
-			'password'   => 'kp171095',
-			'port'       => 2525,
+			'host'       => '',
+			'username'   => '',
+			'password'   => '',
+			'port'       => 0,
 			'encryption' => ''
 		];
 
