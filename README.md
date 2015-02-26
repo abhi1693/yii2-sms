@@ -17,8 +17,11 @@ This document will guide you through the process of installing Yii2-Sms using **
 
 #### Download using composer
 
+```php
+$ php composer.phar require abhi1693/yii2-sms 2.0.0
+```
 
-Add Yii2-Sms to the require section of your **composer.json** file:
+Or Add Yii2-Sms to the require section of your **composer.json** file:
 
 ```php
 {
@@ -55,11 +58,11 @@ $sms = new Sms();
 
 $sms->transportType    = 'php'; // php/smtp
 $sms->transportOptions = [
-        'host'       => 'smtp.gmail.com'                  // Other domains can also be used
-                'username'   => 'your@gmail.com',
-                'password'   => '******',
-                'port'       => '465',
-                'encryption' => 'ssl'
+        'host'       => 'smtp.gmail.com',     // Other domains can also be used
+        'username'   => 'your@gmail.com',
+        'password'   => '******',
+        'port'       => '465',
+        'encryption' => 'ssl'
     ];
 $carrier = "T-Mobile";
 $number = "0123456789";
