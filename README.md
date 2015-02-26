@@ -12,11 +12,10 @@ Documentation
 ## Installation
 
 
-This document will guide you through the process of installing Yii2-Sms using **composer**. Installation is a quick and
-easy two-step process.
+This document will guide you through the process of installing Yii2-Sms using **composer**.
 
 
-#### Step 1: Download using composer
+#### Download using composer
 
 
 Add Yii2-Sms to the require section of your **composer.json** file:
@@ -24,37 +23,15 @@ Add Yii2-Sms to the require section of your **composer.json** file:
 ```php
 {
     "require": {
-        "abhi1693/yii2-sms": "1.0.0"
+        "abhi1693/yii2-sms": "2.0.0"
     }
 }
 ```
 
 And run following command to download extension using **composer**:
 
-```bash
-$ php composer.phar update
-```
-
-#### Step 2: Configure your application
-
 ```php
-$config = [
-    ...
-    'components' => [
-        ...
-        'sms' => [
-            'class'             => 'abhimanyu\sms\components\Sms' // Class (Required)
-            'transportType'     => 'smtp'                         // smtp/php (Optional)
-            'transportOptions'  => [                              // (Required)
-                'host'       => 'smtp.gmail.com'                  // Other domains can also be used
-                'username'   => 'your@gmail.com',
-                'password'   => '******',
-                'port'       => '465',
-                'encryption' => 'ssl'
-            ]
-        ]
-    ]
-]
+$ php composer.phar update
 ```
 
 ## Basic Usage
@@ -76,6 +53,14 @@ $config = [
 ```php
 $sms = new Sms();
 
+$sms->transportType    = 'php'; // php/smtp
+$sms->transportOptions = [
+        'host'       => 'smtp.gmail.com'                  // Other domains can also be used
+                'username'   => 'your@gmail.com',
+                'password'   => '******',
+                'port'       => '465',
+                'encryption' => 'ssl'
+    ];
 $carrier = "T-Mobile";
 $number = "0123456789";
 $subject = "Subject";
