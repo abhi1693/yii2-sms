@@ -1,6 +1,7 @@
 Yii2-Sms
 ========
 
+[![Gratipay User](https://img.shields.io/gratipay/user/abhi1693.svg?style=flat-square)](https://gratipay.com/~abhi1693)
 [![Dependency Status](https://www.versioneye.com/user/projects/54e1e66a0a910b25de0001b0/badge.svg?style=flat)](https://www.versioneye.com/user/projects/54e1e66a0a910b25de0001b0)
 [![Latest Stable Version](https://poser.pugx.org/abhi1693/yii2-sms/v/stable.svg)](https://packagist.org/packages/abhi1693/yii2-sms) [![Total Downloads](https://poser.pugx.org/abhi1693/yii2-sms/downloads.svg)](https://packagist.org/packages/abhi1693/yii2-sms) [![Latest Unstable Version](https://poser.pugx.org/abhi1693/yii2-sms/v/unstable.svg)](https://packagist.org/packages/abhi1693/yii2-sms) [![License](https://poser.pugx.org/abhi1693/yii2-sms/license.svg)](https://packagist.org/packages/abhi1693/yii2-sms)
 
