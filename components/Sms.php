@@ -12,7 +12,7 @@
 	 * @author  Abhimanyu Saharan <abhimanyu@teamvulcans.com>
 	 * @package abhimanyu\sms\components
 	 */
-	class Sms extends Component implements ISMS
+	class Sms extends Component implements ISms
 	{
 		/**
 		 * Transport for mailing
