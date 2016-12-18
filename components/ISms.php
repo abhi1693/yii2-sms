@@ -5,7 +5,7 @@ namespace abhimanyu\sms\components;
 /**
  * @author Abhimanyu Saharan <abhimanyu@teamvulcans.com>
  */
-interface ISMS
+interface ISms
 {
     /**
      * Sends text message
